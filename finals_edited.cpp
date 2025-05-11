@@ -470,7 +470,7 @@ public:
         medicines.push_back(medicine);
     }
 
-  Medicine* findMedicine(int id) const {
+    Medicine* findMedicine(int id) const {
     LOG_FUNCTION();
     for (const auto& med : medicines) {  // Changed to const reference
         if (med.getId() == id) return const_cast<Medicine*>(&med);  // Explicit const_cast
