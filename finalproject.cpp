@@ -16,7 +16,7 @@
 
 using namespace std;
 
-// ====================== Logger ======================
+//  Logger 
 class Logger {
 private:
     static Logger* instance;
@@ -1402,7 +1402,7 @@ private:
     }
 };
 
-// ====================== Main Application ======================
+//  Main Application
 class PharmacySystem {
 public:
     void run() {
@@ -1464,7 +1464,7 @@ private:
     }
 };
 
-// ====================== Main Function ======================
+// Main Function 
 int main() {
     PharmacySystem system;
     system.run();
