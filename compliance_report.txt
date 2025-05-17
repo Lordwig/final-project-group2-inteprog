@@ -2,7 +2,7 @@ Compliance Report - 2025-05-17
 ========================================
 
 Low Stock Medicines (Quantity < 10):
-- Mefenamic: 2 remaining
+- Mefenamic: 0 remaining
 
 Medicines Expiring Soon (within 30 days):
 No medicines expiring soon.
