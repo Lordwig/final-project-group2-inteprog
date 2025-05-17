@@ -1,0 +1,14 @@
+ID: 1 | Time: 2025-05-17 22:33:51 | User: admin | Action: Logged in as Admin
+ID: 2 | Time: 2025-05-17 22:34:19 | User: admin | Action: Added new medicine: Mefenamic (Qty: 2, Exp: 2030-05-04, Price: $1.000000)
+ID: 3 | Time: 2025-05-17 22:34:34 | User: admin | Action: Generated compliance report
+ID: 4 | Time: 2025-05-17 22:35:06 | User: pharmacist | Action: Logged in as Pharmacist
+ID: 5 | Time: 2025-05-17 22:35:23 | User: pharmacist | Action: Logged out
+ID: 6 | Time: 2025-05-17 22:41:07 | User: pharmacist | Action: Logged in as Pharmacist
+ID: 7 | Time: 2025-05-17 22:41:30 | User: pharmacist | Action: Added prescription ID: 1
+ID: 8 | Time: 2025-05-17 22:41:45 | User: pharmacist | Action: Billed Mefenamic x2, Remaining: 0, Method: Cash
+ID: 9 | Time: 2025-05-17 22:42:04 | User: pharmacist | Action: Updated prescription ID: 1
+ID: 10 | Time: 2025-05-17 22:42:31 | User: pharmacist | Action: Logged out
+ID: 11 | Time: 2025-05-17 22:42:58 | User: admin | Action: Logged in as Admin
+ID: 12 | Time: 2025-05-17 22:43:00 | User: admin | Action: Generated compliance report
+ID: 13 | Time: 2025-05-17 22:43:19 | User: admin | Action: Updated medicine: Mefenamic
+ID: 14 | Time: 2025-05-17 22:43:25 | User: admin | Action: Logged out
