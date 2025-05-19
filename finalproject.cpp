@@ -1249,26 +1249,56 @@ public:
     ~PharmacySystem() override = default;
 
     void run() override {
-        bool running = true;
-        while (running) {
-            if (authenticateUser()) {
+        bool programRunning = true;
+        
+        while (programRunning) {
+            bool authenticated = false;
+            
+            // Authentication loop
+            while (!authenticated) {
+                if (authenticateUser()) {
+                    authenticated = true;
+                } else {
+                    string choice = Utils::getInput("Would you like to try again? (y/n): ");
+                    if (choice != "y" && choice != "Y") {
+                        programRunning = false;
+                        break;  // Exit both loops
+                    }
+                }
+            }
+            
+            if (!programRunning) break;
+            
+            // Main menu loop
+            bool sessionActive = true;
+            while (sessionActive) {
                 if (currentRole == "Admin") {
                     adminMenu();
                 } else {
                     pharmacistMenu();
                 }
-                cout << "Logging out... Goodbye!\n";
+                
+                // User chose to logout
+                cout << "Logging out... tip: Be sure to save your work and adhere to pharmacy policy\n";
                 FileLogger::getInstance()->log("Logged out", currentUser);
-                running = false;
-            } else {
-                cout << "Would you like to try again? (y/n): ";
-                string choice = Utils::getInput("");
-                if (choice != "y" && choice != "Y") {
-                    running = false;
+                
+                // Prompt for relogin or exit
+                string choice;
+                do {
+                    choice = Utils::getInput("Would you like to log in again? (y/n): ");
+                } while (choice != "y" && choice != "Y" && choice != "n" && choice != "N");
+                
+                if (choice == "n" || choice == "N") {
+                    sessionActive = false;
+                    programRunning = false;
+                } else {
+                    sessionActive = false;  // Break inner loop to go back to authentication
                 }
             }
         }
-     }
+        
+        cout << "Thank you for using the Pharmacy Management System. Goodbye!\n";
+    }
 };
 
 int main() {

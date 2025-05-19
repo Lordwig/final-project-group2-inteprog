@@ -17,3 +17,11 @@ ID: 16 | Time: 2025-05-19 08:25:05 | User: pharmacist | Action: Updated prescrip
 ID: 17 | Time: 2025-05-19 08:25:38 | User: pharmacist | Action: Billed Mefenamic x2, Remaining: 0, Method: PayMaya
 ID: 18 | Time: 2025-05-19 08:25:48 | User: pharmacist | Action: Logged out
 ID: 19 | Time: 2025-05-19 08:26:43 | User: admin | Action: Logged in as Admin
+ID: 20 | Time: 2025-05-19 16:14:34 | User: admin | Action: Logged in as Admin
+ID: 21 | Time: 2025-05-19 16:14:56 | User: admin | Action: Updated medicine: Mefenamic
+ID: 22 | Time: 2025-05-19 16:15:12 | User: admin | Action: Logged out
+ID: 23 | Time: 2025-05-19 16:16:35 | User: admin | Action: Logged in as Admin
+ID: 24 | Time: 2025-05-19 16:16:39 | User: admin | Action: Logged out
+ID: 25 | Time: 2025-05-19 16:17:34 | User: admin | Action: Logged in as Admin
+ID: 26 | Time: 2025-05-19 16:17:43 | User: admin | Action: Generated compliance report
+ID: 27 | Time: 2025-05-19 16:17:48 | User: admin | Action: Logged out
