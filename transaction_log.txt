@@ -29,3 +29,11 @@ ID: 28 | Time: 2025-05-21 12:56:32 | User: pharmacist | Action: Logged in as Pha
 ID: 29 | Time: 2025-05-21 12:56:34 | User: pharmacist | Action: Logged out
 ID: 30 | Time: 2025-05-21 12:56:40 | User: admin | Action: Logged in as Admin
 ID: 31 | Time: 2025-05-21 12:56:41 | User: admin | Action: Logged out
+ID: 32 | Time: 2025-05-21 12:58:46 | User: admin | Action: Logged in as Admin
+ID: 33 | Time: 2025-05-21 12:59:02 | User: admin | Action: Added new medicine: hello (Qty: 123, Exp: 2030-05-04, Price: $1.000000)
+ID: 34 | Time: 2025-05-21 12:59:17 | User: admin | Action: Logged out
+ID: 35 | Time: 2025-05-21 12:59:50 | User: pharmacist | Action: Logged in as Pharmacist
+ID: 36 | Time: 2025-05-21 13:00:49 | User: pharmacist | Action: Added prescription ID: SM
+ID: 37 | Time: 2025-05-21 13:01:33 | User: pharmacist | Action: Billed hello x1, Remaining: 122, Method: PayMaya
+ID: 38 | Time: 2025-05-21 13:01:53 | User: pharmacist | Action: Deleted prescription ID: 1
+ID: 39 | Time: 2025-05-21 13:02:26 | User: pharmacist | Action: Added prescription ID: DS
