@@ -37,3 +37,6 @@ ID: 36 | Time: 2025-05-21 13:00:49 | User: pharmacist | Action: Added prescripti
 ID: 37 | Time: 2025-05-21 13:01:33 | User: pharmacist | Action: Billed hello x1, Remaining: 122, Method: PayMaya
 ID: 38 | Time: 2025-05-21 13:01:53 | User: pharmacist | Action: Deleted prescription ID: 1
 ID: 39 | Time: 2025-05-21 13:02:26 | User: pharmacist | Action: Added prescription ID: DS
+ID: 40 | Time: 2025-05-21 13:04:28 | User: admin | Action: Logged in as Admin
+ID: 41 | Time: 2025-05-21 13:04:30 | User: admin | Action: Generated compliance report
+ID: 42 | Time: 2025-05-21 13:04:35 | User: admin | Action: Generated compliance report
