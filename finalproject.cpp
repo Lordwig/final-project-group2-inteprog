@@ -1304,5 +1304,6 @@ public:
 int main() {
     unique_ptr<IPharmacySystem> system = make_unique<PharmacySystem>();
     system->run();
-    return 0;
+     return 0;
 }
+
