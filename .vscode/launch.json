@@ -8,8 +8,13 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
+<<<<<<< HEAD
+      "cwd": "c:/Users/RK/OneDrive/Desktop/INTEPROG-FINALS/final-project-group2-inteprog",
+      "program": "c:/Users/RK/OneDrive/Desktop/INTEPROG-FINALS/final-project-group2-inteprog/build/Debug/outDebug",
+=======
       "cwd": "c:/Users/ludwig rex olarte/Desktop/INTEPROG/FINALS",
       "program": "c:/Users/ludwig rex olarte/Desktop/INTEPROG/FINALS/build/Debug/outDebug",
+>>>>>>> 0edb68117e4c03321c31a2509276bd8ffee908e2
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
